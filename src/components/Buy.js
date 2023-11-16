@@ -7,7 +7,7 @@ class Buy extends React.Component {
 			<div>
 				<input placeholder='счет'></input>
 				<input placeholder='токен'></input>
-				<input placeholder='сумма'></input>
+				<input type="number" placeholder='сумма'></input>
 				<button type='button'>Купить</button>
 			</div>
 		

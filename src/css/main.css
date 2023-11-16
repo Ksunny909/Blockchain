@@ -159,6 +159,10 @@ main form{
 	justify-content: center;
 	margin-bottom: 100px;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
 input{
 	margin-bottom: 25px;
 	margin-left: 74px;

@@ -6,7 +6,7 @@ class Send extends React.Component {
 			<div>
 				<input placeholder='счет отправления'></input>
 				<input placeholder='актив'></input>
-				<input placeholder='сумма'></input>
+				<input type="number" placeholder='сумма'></input>
 				<button type='button'>Отправить</button>
 			</div>
 		)

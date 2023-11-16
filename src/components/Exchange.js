@@ -8,7 +8,7 @@ class Exchange extends React.Component {
 				<input placeholder='токен'></input>
 				<label>Обменять на</label>
 				<input placeholder='токен'></input>
-				<input placeholder='сумма'></input>
+				<input type="number" placeholder='сумма'></input>
 				<button type='button'>Обменять</button>
 			</div>
 		)
